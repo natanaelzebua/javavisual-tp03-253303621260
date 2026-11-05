@@ -22,11 +22,11 @@ javavisual-tp03-253303621260/
 
 ##  Identitas
 
-Nama: Natanael Lata Saro Agassi Zebua
+Nama : Natanael Lata Saro Agassi Zebua
 
-NIM: 253303621260
+NIM : 253303621260
 
-Analisis Bagian D (Google Docs): https://docs.google.com/document/d/1SNxDcftUvaI1R1VRfGxcKZ1W032N9d-9/edit?usp=drive_link&ouid=114985403171917953493&rtpof=true&sd=true
+Analisis Bagian D (Google Docs) : https://docs.google.com/document/d/1SNxDcftUvaI1R1VRfGxcKZ1W032N9d-9/edit?usp=drive_link&ouid=114985403171917953493&rtpof=true&sd=true
 
 ## TP5 — Character Manager Sprint #2
 Pada sprint ini ditambahkan class CharacterManager yang mengelola koleksi Character memakai ArrayList, dengan penolakan nama duplikat lewat equals(), getAllCharacters() yang mengembalikan salinan (defensive copy), serta counter static untuk jumlah objek yang dibuat.
@@ -46,6 +46,7 @@ Screenshot memperlihatkan nama duplikat ditolak, getAverageLevel() pada list kos
 getTypeSummary() merangkum jumlah karakter untuk setiap tipe (WARRIOR, MAGE, ARCHER, HEALER) dalam satu String, misalnya untuk ditampilkan di GUI pada sprint berikutnya. Method ini mengembalikan String, bukan characterList atau salinannya, karena String tidak dapat diubah dari luar. Pemanggil hanya menerima hasil hitungan dan tidak pernah memegang reference ke list internal, sehingga Encapsulation terjaga dan perubahan data hanya bisa lewat addCharacter() dan removeCharacter(). Method memakai CharacterType.values(), sehingga jika kelak ditambah tipe baru seperti NECROMANCER, method ini otomatis ikut menghitungnya tanpa perlu diubah.
 
 ## Struktur folder
+```text
 javavisual-tp03/
 ├── README.md
 ├── screenshots/
@@ -58,6 +59,7 @@ javavisual-tp03/
             ├── CharacterType.java
             ├── Character.java
             └── CharacterManager.java
+```
 
 ## Analisis Bagian D TP5 (Google Docs)
 https://docs.google.com/document/d/1WvyJLbKh31XICXCgzROtQKsQAZ6VGwOY/edit?usp=drive_link&ouid=114985403171917953493&rtpof=true&sd=true
