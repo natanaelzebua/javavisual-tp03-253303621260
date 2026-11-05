@@ -7,7 +7,7 @@ Proyek ini adalah implementasi sistem manajemen karakter menggunakan prinsip Obj
 ![alt text](<Screenshot 2026-11-05 082057.png>)
 
 ## Struktur Folder Project
-
+(```text)
 javavisual-tp03-253303621260/
 ├── src/
 │   ├── Main.java
@@ -17,7 +17,7 @@ javavisual-tp03-253303621260/
 │               └── model/
 │                   ├── Character.java
 │                   └── CharacterType.java
-└── README.md
+└── README.md (```)
 
 ## Identitas
 
