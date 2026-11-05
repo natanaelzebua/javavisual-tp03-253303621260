@@ -4,7 +4,7 @@ Proyek ini adalah implementasi sistem manajemen karakter menggunakan prinsip Obj
 
 ## Hasil Output Terminal
 
-![alt text](<Screenshot 2026-11-05 082057.png>)
+![alt text](image.png)
 
 ## Struktur Folder Project
 ```text
