@@ -28,7 +28,7 @@ NIM : 253303621260
 
 Analisis Bagian D (Google Docs) : https://docs.google.com/document/d/1SNxDcftUvaI1R1VRfGxcKZ1W032N9d-9/edit?usp=drive_link&ouid=114985403171917953493&rtpof=true&sd=true
 
-## TP5 — Character Manager Sprint #2
+# TP5 — Character Manager Sprint #2
 Pada sprint ini ditambahkan class CharacterManager yang mengelola koleksi Character memakai ArrayList, dengan penolakan nama duplikat lewat equals(), getAllCharacters() yang mengembalikan salinan (defensive copy), serta counter static untuk jumlah objek yang dibuat.
 
 ## Fitur baru
