@@ -31,7 +31,7 @@ Analisis Bagian D (Google Docs): https://docs.google.com/document/d/1SNxDcftUvaI
 ## TP5 — Character Manager Sprint #2
 Pada sprint ini ditambahkan class CharacterManager yang mengelola koleksi Character memakai ArrayList, dengan penolakan nama duplikat lewat equals(), getAllCharacters() yang mengembalikan salinan (defensive copy), serta counter static untuk jumlah objek yang dibuat.
 
-Fitur baru
+## Fitur baru
 equals() pada Character membandingkan nama, sehingga nama duplikat ditolak
 totalCharacterCreated (static) menghitung jumlah objek Character yang dibuat
 CharacterManager: addCharacter(), findByName(), removeCharacter(), getTotalCharacters(), getAllCharacters()
@@ -48,10 +48,9 @@ getTypeSummary() merangkum jumlah karakter untuk setiap tipe (WARRIOR, MAGE, ARC
 ## Struktur folder
 javavisual-tp03/
 ├── README.md
-├── .gitignore
 ├── screenshots/
-│   ├── ![alt text](image.png)
-│   └── ![alt text](image-1.png)
+│   ├── (image.png)
+│   └── (image-1.png)
 └── CharacterManager/
     └── src/
         ├── Main.java
