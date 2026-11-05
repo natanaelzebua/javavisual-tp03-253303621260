@@ -18,7 +18,7 @@ javavisual-tp03-253303621260/
 │                   ├── Character.java
 │                   └── CharacterType.java
 └── README.md
-```text
+```
 
 ##  Identitas
 
