@@ -23,7 +23,6 @@ javavisual-tp03-253303621260/
 ##  Identitas
 
 Nama : Natanael Lata Saro Agassi Zebua
-
 NIM : 253303621260
 
 Analisis Bagian D (Google Docs) : https://docs.google.com/document/d/1SNxDcftUvaI1R1VRfGxcKZ1W032N9d-9/edit?usp=drive_link&ouid=114985403171917953493&rtpof=true&sd=true
