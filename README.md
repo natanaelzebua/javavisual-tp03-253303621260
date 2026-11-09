@@ -69,11 +69,11 @@ Pada sprint ini aplikasi berpindah dari console ke GUI. Ditambahkan class MainWi
 
 ## Screenshot MainWindow
 Sebelum data diubah (Morgana level 20, rata-rata level 13,00):
-![alt text](<Screenshot 2026-11-09 125623.png>)
+![alt text](image-3.png)
 
 Sesudah data diubah (Morgana level 25, rata-rata level 14.00):
 
-![alt text](<Screenshot 2026-11-09 132316.png>)
+![alt text](image-2.png)
 
 Kedua screenshot memuat 5 karakter dan membuktikan bahwa statistik ikut berubah saat data diubah.
 
@@ -83,7 +83,7 @@ Main.java membuat CharacterManager dan mengisinya dengan lima karakter (Model). 
 ## Karakter baru
 | Karakter | Tipe | Level | Alasan pemilihan |
 | :--- | :--- | :--- | :--- |
-| Galahad | WARRIOR | 12 | Melengkapi empat tipe karakter (sebelumnya belum ada HEALER) dan level rendah agar datanya bervariasi |
+| Helena | HEALER | 12 | Melengkapi empat tipe karakter (sebelumnya belum ada HEALER) dan level rendah agar datanya bervariasi |
 | Morgana | MAGE | 20, lalu diubah menjadi 25 | Level tinggi sehingga pengaruhnya pada rata-rata level terlihat jelas saat data diubah |
 
 ## Struktur folder
@@ -93,8 +93,8 @@ javavisual-tp03/
 ├── screenshots/
 │   ├── output.png
 │   ├── output-tp5.png
-│   ├── Screenshot 2026-11-09 125623.png
-│   └── Screenshot 2026-11-09 132316.png
+│   ├── image-3.png
+│   └── image-2.png
 └── CharacterManager/
     └── src/
         ├── Main.java

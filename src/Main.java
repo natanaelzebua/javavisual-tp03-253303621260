@@ -15,9 +15,8 @@ public class Main {
         manager.addCharacter(new Character("Merlin", CharacterType.MAGE, 15));
         manager.addCharacter(new Character("Robin", CharacterType.ARCHER, 8));
         manager.addCharacter(new Character("Helena", CharacterType.HEALER, 12));
-        manager.addCharacter(new Character("Morgana", CharacterType.MAGE, 25)); // Diubah ke level 25
+        manager.addCharacter(new Character("Morgana", CharacterType.MAGE, 20));
 
-        // Menjalankan GUI secara aman di dalam Event Dispatch Thread (EDT)
         SwingUtilities.invokeLater(() -> {
             MainWindow window = new MainWindow(manager);
             window.setVisible(true);
