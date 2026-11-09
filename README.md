@@ -70,7 +70,9 @@ Pada sprint ini aplikasi berpindah dari console ke GUI. Ditambahkan class MainWi
 ## Screenshot MainWindow
 Sebelum data diubah (Morgana level 20, rata-rata level 13,00):
 ![alt text](<Screenshot 2026-11-09 125623.png>)
+
 Sesudah data diubah (Morgana level 25, rata-rata level 14.00):
+
 ![alt text](<Screenshot 2026-11-09 132316.png>)
 
 Kedua screenshot memuat 5 karakter dan membuktikan bahwa statistik ikut berubah saat data diubah.
