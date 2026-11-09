@@ -62,3 +62,48 @@ javavisual-tp03/
 
 ## Analisis Bagian D TP5 (Google Docs)
 https://docs.google.com/document/d/1WvyJLbKh31XICXCgzROtQKsQAZ6VGwOY/edit?usp=drive_link&ouid=114985403171917953493&rtpof=true&sd=true
+
+
+# TP8 — Character Manager Sprint #3
+Pada sprint ini aplikasi berpindah dari console ke GUI. Ditambahkan class MainWindow (package view, extends JFrame) yang menampilkan daftar karakter secara dinamis lewat loop, ditambah statistik "Rata-rata Level" di bawah daftar. Main.java menjalankan jendela lewat SwingUtilities.invokeLater().
+
+## Screenshot MainWindow
+Sebelum data diubah (Morgana level 20, rata-rata level 13,00):
+![alt text](<Screenshot 2026-11-09 125623.png>)
+Sesudah data diubah (Morgana level 25, rata-rata level 14.00):
+![alt text](<Screenshot 2026-11-09 132316.png>)
+
+Kedua screenshot memuat 5 karakter dan membuktikan bahwa statistik ikut berubah saat data diubah.
+
+## Aliran data: Main → CharacterManager → MainWindow
+Main.java membuat CharacterManager dan mengisinya dengan lima karakter (Model). Data diambil lewat manager.getAllCharacters(), yang mengembalikan salinan list, lalu diteruskan ke constructor MainWindow. MainWindow (View) hanya menerima list itu, membuat satu JLabel untuk setiap karakter lewat loop, dan menampilkan rata-rata level, tanpa mengetahui cara data disimpan. Dalam MVC, Main untuk sementara berperan sebagai penghubung (pengganti Controller yang dibangun pada pertemuan berikutnya): Model tidak mengenal View, dan View tidak mengubah data Model.
+
+## Karakter baru
+| Karakter | Tipe | Level | Alasan pemilihan |
+| :--- | :--- | :--- | :--- |
+| Galahad | WARRIOR | 12 | Melengkapi empat tipe karakter (sebelumnya belum ada HEALER) dan level rendah agar datanya bervariasi |
+| Morgana | MAGE | 20, lalu diubah menjadi 25 | Level tinggi sehingga pengaruhnya pada rata-rata level terlihat jelas saat data diubah |
+
+## Struktur folder
+```text
+javavisual-tp03/
+├── README.md
+├── .gitignore
+├── screenshots/
+│   ├── output.png
+│   ├── output-tp5.png
+│   ├── Screenshot 2026-11-09 125623.png
+│   └── Screenshot 2026-11-09 132316.png
+└── CharacterManager/
+    └── src/
+        ├── Main.java
+        └── com/unpri/charactermanager/
+            ├── model/
+            │   ├── CharacterType.java
+            │   ├── Character.java
+            │   └── CharacterManager.java
+            └── view/
+                └── MainWindow.java
+```
+## Analisis Bagian D TP8 (Google Docs)
+https://docs.google.com/document/d/1P2E1Vt90Tm4gVKWp6zVS8HTPDeWaj57T_hBUxTMtxhY/edit?usp=drive_link
