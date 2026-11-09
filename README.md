@@ -90,7 +90,6 @@ Main.java membuat CharacterManager dan mengisinya dengan lima karakter (Model). 
 ```text
 javavisual-tp03/
 ├── README.md
-├── .gitignore
 ├── screenshots/
 │   ├── output.png
 │   ├── output-tp5.png
